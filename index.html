@@ -1,53 +1,329 @@
-<!doctype html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1224">
-  <meta name="description" content="UNBLOQ – Rechtliche Informationen, Datenschutzerklärung, Impressum und Kontolöschung.">
-  <title>UNBLOQ | Rechtliches & Datenschutz</title>
-  <style>
-    :root{color-scheme:dark;--bg:#090f1e;--panel:#111a2d;--panel2:#15213a;--line:#2a3750;--txt:#edf4ff;--muted:#a8b8d0;--mint:#79f2ce;--blue:#88afff;--warn:#ffde9f}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:radial-gradient(ellipse at 82% 0%,#1d3350 0%,transparent 40%),radial-gradient(ellipse at 0% 24%,#132d37 0%,transparent 33%),var(--bg);color:var(--txt);font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--mint);text-decoration-thickness:1px;text-underline-offset:4px}a:hover{color:#b5ffe9}.shell{width:min(1120px,calc(100% - 40px));margin-inline:auto}.top{position:sticky;top:0;z-index:10;background:rgba(9,15,30,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.09)}.top-inner{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:73px}.brand{text-decoration:none;color:var(--txt);font-weight:850;font-size:1.25rem;letter-spacing:.09em;display:flex;align-items:center;gap:11px}.mark{display:grid;place-items:center;width:35px;height:35px;border-radius:11px;color:#0a1823;background:linear-gradient(135deg,var(--mint),#8fb8ff);font-size:19px}.top-nav{display:flex;flex-wrap:wrap;gap:8px 20px}.top-nav a{color:var(--muted);font-size:.88rem;text-decoration:none}.top-nav a:hover{color:var(--mint)}.hero{padding:90px 0 66px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--mint);background:#173a3b;border:1px solid #326c66;border-radius:50px;padding:5px 13px;font-size:.75rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase}.hero h1{font-size:clamp(2.7rem,7vw,5.2rem);line-height:1.08;letter-spacing:-.055em;max-width:900px;margin:25px 0}.hero h1 span{background:linear-gradient(100deg,var(--mint),#91b3ff);background-clip:text;-webkit-text-fill-color:transparent}.lead{max-width:690px;color:var(--muted);font-size:1.1rem}.meta{color:var(--muted);font-size:.86rem;margin-top:22px}.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0 80px}.tile{background:linear-gradient(145deg,#18253c,#10192b);border:1px solid var(--line);border-radius:20px;padding:27px;text-decoration:none;color:var(--txt);transition:transform .2s,border-color .2s}.tile:hover{transform:translateY(-4px);border-color:#7adfc8;color:var(--txt)}.tile .symbol{font-size:1.6rem}.tile h2{font-size:1.16rem;margin:16px 0 5px}.tile p{color:var(--muted);font-size:.91rem;margin:0}.tile .arrow{color:var(--mint);display:inline-block;margin-top:20px}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start}.toc{position:sticky;top:100px;padding:19px 0}.toc strong{font-size:.75rem;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.toc a{display:block;color:var(--muted);padding:9px 12px;margin:4px 0;text-decoration:none;border-radius:9px;font-size:.9rem}.toc a:hover{background:var(--panel);color:var(--mint)}.stack{display:grid;gap:25px}.section{background:linear-gradient(160deg,rgba(21,33,58,.94),rgba(15,24,42,.96));border:1px solid var(--line);border-radius:22px;padding:clamp(23px,4vw,48px);box-shadow:0 20px 80px #0002}.section-header{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:30px}.kicker{color:var(--mint);font-weight:700;font-size:.75rem;text-transform:uppercase;letter-spacing:.14em}.section h2{font-size:clamp(1.65rem,4vw,2.45rem);letter-spacing:-.04em;line-height:1.18;margin:10px 0}.section h3{font-size:1.09rem;line-height:1.4;margin-top:33px;margin-bottom:10px}.section p,.section li{color:#c7d3e5}.section ul{padding-left:22px}.section li+li{margin-top:4px}.section p{margin:12px 0}.muted{color:var(--muted)!important}.fact{background:rgba(121,242,206,.07);border:1px solid #33665e;border-radius:14px;padding:18px 22px;margin:18px 0}.fact p{margin:0}.notice{background:#3c2d20;border:1px solid #8b683f;border-radius:13px;padding:14px 18px;color:var(--warn);font-size:.91rem;margin-top:18px}.notice strong{color:#ffecba}.pill{display:inline-block;border:1px solid #3b5a6d;color:#bde7fa;padding:3px 10px;border-radius:30px;font-size:.8rem}.button{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--mint);color:#0a1720;padding:13px 21px;border-radius:12px;text-decoration:none;font-weight:800;line-height:1.3;margin:12px 0}.button:hover{color:#0a1720;background:#b5ffe9}.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.small{font-size:.88rem}.back{display:inline-block;margin-top:25px;font-size:.85rem}footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;border-top:1px solid var(--line);padding:32px 0 50px;margin-top:70px;font-size:.85rem;color:var(--muted)}footer a{color:var(--muted)}:focus-visible{outline:3px solid var(--mint);outline-offset:4px}section[id],article[id]{scroll-margin-top:100px}@media(max-width:800px){.layout{grid-template-columns:1fr}.toc{display:none}.tiles{grid-template-columns:1fr;margin-bottom:44px}.hero{padding:65px 0 30px}.cols{grid-template-columns:1fr}.top-nav{gap:8px 12px}.top-nav a{font-size:.78rem}.top-inner{padding-block:9px}}
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="#f6f8f5" name="theme-color"/>
+<meta content="UNBLOQ – Rechtliche Informationen, Datenschutzerklärung, Impressum und Kontolöschung." name="description"/>
+<title>UNBLOQ | Rechtliches &amp; Datenschutz</title>
+<style>/* UNBLOQ — quiet, editorial brand design. No external assets or tracking. */
+:root {
+  color-scheme: light;
+  --paper:#f7f9f6;
+  --white:#ffffff;
+  --cream:#eef4ee;
+  --ink:#14251c;
+  --body:#314438;
+  --muted:#475f51;
+  --green:#165a3c;
+  --green-hover:#0e422b;
+  --mint:#68bf8c;
+  --border:#9aafa0;
+  --soft-border:#d0dfd2;
+  --focus:#9b3b00;
+  --width:74rem;
+}
+*,*::before,*::after { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:7rem; }
+body { margin:0; background:var(--paper); color:var(--ink); font:400 1rem/1.78 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; overflow-wrap:break-word; -webkit-text-size-adjust:100%; }
+img { display:block; max-width:100%; height:auto; }
+a { color:var(--green); text-underline-offset:.22em; text-decoration-thickness:.085em; }
+a:hover { color:var(--green-hover); }
+:where(a,button,select):focus-visible { outline:3px solid var(--focus); outline-offset:4px; border-radius:.3rem; }
+.shell { width:min(var(--width),calc(100% - 3.5rem)); margin-inline:auto; }
+.skip-link { position:fixed; top:.5rem; left:.5rem; z-index:999; transform:translateY(-170%); padding:.8rem 1rem; background:#fff; color:#111; border:2px solid #111; border-radius:.4rem; font-weight:750; }
+.skip-link:focus { transform:none; }
+.site-header { position:relative; z-index:10; background:rgba(247,249,246,.96); border-bottom:1px solid var(--soft-border); }
+.header-inner { min-height:6rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem 2rem; padding:.85rem 0; }
+.brand { display:inline-flex; gap:.85rem; align-items:center; text-decoration:none; color:var(--ink); white-space:nowrap; }
+.brand:hover { color:var(--ink); }
+.brand-logo { width:2.9rem; height:2.9rem; object-fit:cover; border-radius:.45rem; }
+.brand-copy { display:grid; gap:.05rem; }
+.brand-title { display:block; letter-spacing:.16em; font-size:1.1rem; line-height:1.1; font-weight:850; }
+.brand-sub { display:block; color:var(--muted); font-size:.75rem; font-weight:550; line-height:1.4; margin-top:.18rem; }
+.header-nav { display:flex; justify-content:flex-end; align-items:center; flex-wrap:wrap; gap:.2rem clamp(.75rem,2vw,2rem); }
+.header-nav a { padding:.55rem .1rem; color:var(--ink); font-size:.92rem; font-weight:650; text-decoration:none; }
+.header-nav a:hover { color:var(--green); text-decoration:underline; text-underline-offset:.4em; }
+/* Centered, understated hero; logo stays in header only. */
+.hero { position:relative; isolation:isolate; overflow:hidden; padding:clamp(5.5rem,10vw,9.5rem) 0 clamp(5.25rem,9vw,8.5rem); text-align:center; border-bottom:1px solid var(--soft-border); }
+.hero::before { content:""; position:absolute; z-index:-1; width:min(47rem,90vw); height:min(47rem,90vw); left:50%; top:50%; transform:translate(-50%,-50%); background:radial-gradient(circle, rgba(104,191,140,.085) 0%,rgba(104,191,140,.025) 43%,transparent 72%); pointer-events:none; }
+.hero-inner { max-width:58rem; margin-inline:auto; }
+.eyebrow { display:inline-flex; align-items:center; gap:.7rem; color:var(--green); text-transform:uppercase; letter-spacing:.19em; font-size:.73rem; font-weight:850; }
+.eyebrow::before,.eyebrow::after { content:""; width:1.35rem; height:1px; background:var(--green); }
+.hero h1 { font-size:clamp(3.2rem,8.8vw,7.4rem); line-height:1.025; letter-spacing:-.075em; font-weight:780; margin:1.5rem auto 1.65rem; max-width:13ch; text-wrap:balance; }
+.hero h1 .accent { color:var(--green); }
+.lead { max-width:41rem; margin:0 auto; color:var(--body); font-size:clamp(1.05rem,1.7vw,1.22rem); line-height:1.72; text-wrap:pretty; }
+.hero-actions { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:.9rem; margin-top:2.35rem; }
+.button,.button-secondary { display:inline-flex; justify-content:center; align-items:center; min-height:3.1rem; padding:.85rem 1.5rem; border:1px solid var(--green); border-radius:.28rem; font-weight:750; text-decoration:none; line-height:1.35; }
+.button { background:var(--green); color:#fff; }
+.button:hover { background:var(--green-hover); color:#fff; }
+.button-secondary { background:transparent; color:var(--green); }
+.button-secondary:hover { background:var(--cream); color:var(--green-hover); }
+.hero-meta { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.3rem 1.2rem; margin-top:2.5rem; color:var(--muted); font-size:.86rem; }
+.hero-meta span+span::before { content:"·"; margin-right:1.2rem; color:var(--muted); }
+/* Simple, accessible editorial navigation instead of large boxed cards. */
+.tiles { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.35rem; margin:clamp(3rem,5vw,5rem) 0; }
+.tile { display:block; position:relative; padding:1.65rem 1.5rem 1.55rem; min-width:0; color:var(--ink); text-decoration:none; background:var(--white); border:1px solid var(--soft-border); border-top:3px solid var(--green); border-radius:.23rem; transition:transform .18s ease,border-color .18s ease; }
+.tile:hover,.tile:focus-visible { border-color:var(--green); color:var(--ink); transform:translateY(-3px); }
+.tile .symbol { display:none; }
+.tile h2 { margin:.05rem 0 .65rem; font-size:clamp(1.13rem,1.5vw,1.35rem); font-weight:760; letter-spacing:-.035em; line-height:1.35; }
+.tile p { margin:0; color:var(--body); font-size:.94rem; }
+.tile .arrow { display:inline-block; margin-top:1.2rem; color:var(--green); font-size:.92rem; font-weight:750; text-decoration:underline; }
+.content-grid { display:grid; grid-template-columns:minmax(12rem,15rem) minmax(0,1fr); align-items:start; gap:clamp(1.5rem,4.3vw,4rem); }
+.toc { position:sticky; top:1.7rem; border-top:2px solid var(--green); padding:1.35rem 0; }
+.toc strong { display:block; color:var(--muted); font-size:.75rem; font-weight:850; letter-spacing:.13em; text-transform:uppercase; margin-bottom:.9rem; }
+.toc a { display:block; padding:.43rem 0; text-decoration:none; font-size:.9rem; line-height:1.45; color:var(--body); }
+.toc a:hover,.toc a:focus-visible { color:var(--green); text-decoration:underline; }
+.stack { min-width:0; display:grid; gap:1.5rem; }
+.section { padding:clamp(1.5rem,4.3vw,3.7rem); border:1px solid var(--soft-border); background:#fff; border-radius:.25rem; }
+.section-header { border-bottom:1px solid var(--soft-border); padding-bottom:1.5rem; margin-bottom:1.9rem; }
+.kicker { color:var(--green); text-transform:uppercase; letter-spacing:.16em; font-size:.75rem; font-weight:850; }
+.section h2 { margin:.75rem 0 .45rem; font-size:clamp(1.9rem,3.5vw,2.95rem); font-weight:770; letter-spacing:-.055em; line-height:1.17; text-wrap:balance; }
+.section h3 { margin:2rem 0 .55rem; font-size:1.12rem; font-weight:760; line-height:1.5; }
+.section p,.section li { color:var(--body); }
+.section p { margin:.7rem 0; }
+.section ul { padding-left:1.35rem; }
+.section li+li { margin-top:.35rem; }
+.small { font-size:.91rem; }
+.muted { color:var(--muted)!important; }
+.fact { margin:1.1rem 0; padding:1rem 1.2rem; border-left:3px solid var(--green); background:var(--cream); }
+.fact p { margin:0; }
+.cols { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem 2rem; }
+.back { display:inline-block; margin-top:1.4rem; font-weight:700; font-size:.91rem; }
+.site-footer { display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; margin-top:4.5rem; padding:2rem 0 3rem; border-top:1px solid var(--soft-border); color:var(--muted); font-size:.88rem; }
+.site-footer a { color:var(--ink); }
+section[id],main[id],h3[id] { scroll-margin-top:2rem; }
+@media(max-width:58rem) {
+  .content-grid { grid-template-columns:1fr; }
+  .toc { position:static; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.1rem 1.4rem; padding:1rem 0; }
+  .toc strong { grid-column:1/-1; }
+  .tiles { grid-template-columns:1fr; gap:.9rem; }
+}
+@media(max-width:40rem) {
+  .shell { width:calc(100% - 1.55rem); }
+  .header-inner { align-items:flex-start; flex-direction:column; gap:.8rem; padding:.8rem 0 1rem; }
+  .header-nav { justify-content:flex-start; gap:.2rem 1.2rem; }
+  .header-nav a { font-size:.88rem; padding:.3rem 0; }
+  .hero { padding:4.2rem 0 4rem; }
+  .hero h1 { font-size:clamp(2.8rem,11.8vw,4.4rem); }
+  .hero-actions { flex-direction:column; align-items:stretch; }
+  .hero-actions a { width:100%; }
+  .hero-meta span+span::before { content:none; }
+  .hero-meta { gap:.35rem 1rem; }
+  .toc { grid-template-columns:1fr; }
+  .cols { grid-template-columns:1fr; }
+  .section { padding:1.35rem; }
+}
+@media(prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; scroll-behavior:auto!important; }
+  .tile:hover,.tile:focus-visible { transform:none; }
+}
+@media(forced-colors:active) {
+  .tile,.section,.button,.button-secondary { border:1px solid CanvasText; forced-color-adjust:auto; }
+  .hero::before { display:none; }
+}
+@media print {
+  html { scroll-behavior:auto; }
+  body { background:#fff; color:#000; font-size:11pt; }
+  .site-header,.tiles,.toc,.back,.hero-actions,.site-footer,.skip-link { display:none!important; }
+  .hero { padding:0 0 1rem; border:0; }
+  .hero::before { display:none; }
+  .hero h1,.hero h1 span,.hero p,.section h2,.section h3,.section p,.section li,a { color:#000!important; }
+  .content-grid,.stack,.cols { display:block; }
+  .section { box-shadow:none; border:0; padding:0; margin:1.5rem 0; break-inside:avoid-page; }
+}
+</style>
 </head>
 <body>
-  <header class="top"><div class="shell top-inner">
-    <a class="brand" href="#start" aria-label="UNBLOQ Start"><span class="mark" aria-hidden="true">↗</span>UNBLOQ</a>
-    <nav class="top-nav" aria-label="Hauptnavigation"><a href="#datenschutz">Datenschutz</a><a href="#impressum">Impressum</a><a href="#konto-loeschen">Konto löschen</a></nav>
-  </div></header>
-  <main id="start" class="shell">
-    <div class="hero"><span class="eyebrow">Rechtliches &amp; Transparenz</span><h1>Mobilität, die sich <span>einfach anfühlt.</span></h1><p class="lead">Mit UNBLOQ Fahrräder buchen und Schlösser direkt per Smartphone öffnen. Hier findest du alle wichtigen Informationen zum Datenschutz, Anbieter und zur Löschung deines Kontos.</p><p class="meta">UNBLOQ · pff UG (haftungsbeschränkt) · Stand: 16. November 2026</p></div>
-    <div class="tiles" aria-label="Bereiche">
-      <a class="tile" href="#datenschutz"><span class="symbol" aria-hidden="true">◈</span><h2>Datenschutzerklärung</h2><p>Welche Daten wir verarbeiten, wofür wir sie benötigen und welche Rechte du hast.</p><span class="arrow">Mehr erfahren →</span></a>
-      <a class="tile" href="#impressum"><span class="symbol" aria-hidden="true">▤</span><h2>Impressum</h2><p>Angaben zum Betreiber und Ansprechpartner der App UNBLOQ.</p><span class="arrow">Zum Impressum →</span></a>
-      <a class="tile" href="#konto-loeschen"><span class="symbol" aria-hidden="true">⌁</span><h2>Konto löschen</h2><p>So beantragst du die Löschung deines Kontos und der zugehörigen Daten.</p><span class="arrow">Löschung beantragen →</span></a>
-    </div>
-    <div class="layout">
-      <aside class="toc" aria-label="Seitennavigation"><strong>Auf dieser Seite</strong><a href="#datenschutz">Datenschutz</a><a href="#verantwortlicher">Verantwortlicher</a><a href="#registrierung">Benutzerkonto</a><a href="#buchungen">Buchungen</a><a href="#position">Fahrradpositionen</a><a href="#bluetooth">Bluetooth &amp; Kamera</a><a href="#hosting">Hosting &amp; Empfänger</a><a href="#speicherung">Speicherung &amp; Rechte</a><a href="#impressum">Impressum</a><a href="#konto-loeschen">Konto löschen</a></aside>
-      <div class="stack">
-        <section class="section" id="datenschutz"><div class="section-header"><span class="kicker">01 / Datenschutz</span><h2>Datenschutzerklärung</h2><span class="pill">Stand: 16.11.2026</span></div>
-          <h3 id="verantwortlicher">1. Verantwortlicher</h3><div class="fact"><p><strong>pff UG (haftungsbeschränkt)</strong><br>Möns 9<br>26409 Wittmund<br>Deutschland<br>E-Mail: <a href="mailto:mail@unbloq.de">mail@unbloq.de</a><br>Vertreten durch: Christian Pree</p></div>
-          <h3>2. Überblick</h3><p>Mit der App UNBLOQ kannst du Fahrräder an teilnehmenden Standorten buchen und die Fahrradschlösser per Smartphone öffnen und schließen. Wir verarbeiten personenbezogene Daten, soweit das für die Bereitstellung der App, die Durchführung deiner Buchungen und den sicheren Betrieb erforderlich ist. Wir setzen keine Werbe-, Tracking- oder Analyse-Dienste ein.</p>
-          <h3 id="registrierung">3. Registrierung und Anmeldung</h3><p>Für die Nutzung ist ein Benutzerkonto erforderlich. Bei der Registrierung verarbeiten wir:</p><ul><li>Benutzername</li><li>Vorname und Nachname</li><li>E-Mail-Adresse</li><li>Passwort (verschlüsselte Übertragung, Speicherung ausschließlich als kryptografischer Hash)</li></ul><p>Für die Anmeldung erhält die App zeitlich begrenzte Zugangstoken. Diese werden im geschützten Speicher deines Geräts (iOS-Schlüsselbund beziehungsweise Android Keystore) abgelegt und beim Abmelden gelöscht.</p><p>Die Benutzerverwaltung erfolgt mit der Software Keycloak.</p><div class="notice"><strong>Vor Veröffentlichung ergänzen:</strong> Ob Keycloak selbst betrieben oder bei einem externen Anbieter gehostet wird, einschließlich erforderlicher Empfängerinformationen.</div><p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertrag beziehungsweise vorvertragliche Maßnahmen).</p>
-          <h3 id="buchungen">4. Buchungen</h3><p>Wenn du ein Fahrrad buchst, verarbeiten wir:</p><ul><li>Gebuchtes Fahrrad und Standort</li><li>Beginn und Ende der Buchung</li><li>Preis und Status der Buchung</li><li>Zuordnung der Buchung zu deinem Benutzerkonto</li></ul><p>Diese Daten benötigen wir, um die Buchung durchzuführen, abzurechnen und bei Rückfragen oder Schäden nachvollziehen zu können.</p><p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO; für abrechnungsrelevante Daten zusätzlich Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit handels- und steuerrechtlichen Aufbewahrungspflichten.</p>
-          <h3 id="position">5. Position der Fahrräder</h3><p>Die Fahrradschlösser übermitteln die letzte bekannte Position des Fahrrads an unsere Server. Während einer laufenden Buchung kann diese Position deiner Person zugeordnet werden.</p><p>Wir nutzen die Position, um Fahrräder zu finden, den Bestand zu verwalten und Diebstahl oder Missbrauch zu verhindern. Wir erstellen keine Bewegungsprofile zu Werbe- oder Analysezwecken.</p><p>Die App selbst greift nicht auf den GPS-Standort deines Smartphones zu. Auf Android-Geräten bis Version 11 verlangt das Betriebssystem für die Suche nach Bluetooth-Geräten technisch die Standortberechtigung. Diese nutzen wir ausschließlich, um das Fahrradschloss zu finden. Standortdaten deines Geräts werden dabei nicht erhoben oder übertragen.</p><p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b und lit. f DSGVO (berechtigtes Interesse am Schutz unserer Fahrräder).</p>
-          <h3 id="bluetooth">6. Bluetooth</h3><p>Die App verbindet sich per Bluetooth Low Energy mit dem Schloss des gebuchten Fahrrads. Dafür erhält die App von unserem Server zeitlich begrenzte digitale Zugangsdaten für das jeweilige Schloss. Daten anderer Bluetooth-Geräte in der Umgebung werden nicht gespeichert oder an uns übertragen.</p><p>Alternativ kann das Schloss über seine Mobilfunkverbindung gesteuert werden. Dabei werden Befehle (zum Beispiel Öffnen, Schließen) und der Status des Schlosses über unsere Server übermittelt.</p>
-          <h3>7. Kamera (QR-Code-Scan)</h3><p>Du kannst Fahrräder per QR-Code auswählen. Die Kamera wird nur während des Scans und nach deiner Freigabe verwendet. Die Erkennung erfolgt auf deinem Gerät; auf Android wird dafür die Bibliothek „ML Kit“ von Google eingesetzt. Kamerabilder werden weder gespeichert noch an uns übertragen.</p><div class="notice"><strong>Vor Veröffentlichung prüfen:</strong> Je nach verwendeter ML-Kit-Version und Konfiguration können Diagnose- und technische Daten an Google übermittelt werden. Die genaue SDK-Datenverarbeitung muss hier und im Google-Play-Formular „Datensicherheit“ korrekt beschrieben werden.</div>
-          <h3 id="hosting">8. Server und technische Daten</h3><p>Beim Aufruf unserer Server werden technisch bedingt Daten verarbeitet, zum Beispiel IP-Adresse, Zeitpunkt der Anfrage und die angefragte Funktion. Diese Daten dienen der Sicherheit und Stabilität des Dienstes.</p><p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO.</p><div class="notice"><strong>Vor Veröffentlichung ergänzen:</strong> Konkrete Löschfrist der Server-Protokolle.</div>
-          <h3>9. Empfänger und Auftragsverarbeiter</h3><p><strong>Hosting:</strong> Railway Corporation, USA. Die technische Infrastruktur wird für die Bereitstellung unserer Server eingesetzt.</p><div class="notice"><strong>Vor Veröffentlichung ergänzen und prüfen:</strong> Genaue Anbieteranschrift, tatsächliche Serverregion, Vertragslage zur Auftragsverarbeitung und gegebenenfalls Rechtsgrundlage der Drittlandübermittlung (z. B. Angemessenheitsbeschluss oder Standardvertragsklauseln). Keine dieser Angaben ist hier als geprüft dargestellt.</div><p><strong>Standortbetreiber:</strong> Der Betreiber des jeweiligen Verleihstandorts erhält die für die Abwicklung deiner Buchung erforderlichen Daten.</p><p>Eine Weitergabe an sonstige Dritte erfolgt nur, wenn wir gesetzlich dazu verpflichtet sind. Etwaige durch die genannten Dienste oder SDKs erforderliche weitere Empfängerinformationen sind bei der Prüfung dieser Erklärung zu ergänzen.</p>
-          <h3>10. Zahlungen</h3><p>In der aktuellen Demo-Version werden keine Zahlungsdaten verarbeitet.</p>
-          <h3 id="speicherung">11. Speicherdauer</h3><ul><li><strong>Kontodaten:</strong> bis zur Löschung deines Kontos, sofern keine Aufbewahrungspflicht entgegensteht</li><li><strong>Buchungsdaten:</strong> bis zur Löschung deines Kontos; abrechnungsrelevante Daten bis zum Ablauf gesetzlicher Aufbewahrungsfristen (je nach Unterlagenart, gegebenenfalls bis zu 10 Jahre)</li><li><strong>Position der Fahrräder:</strong> Nach der derzeitigen Beschreibung wird jeweils nur die letzte bekannte Position gespeichert; dies ist technisch zu überprüfen</li><li><strong>Server-Protokolle:</strong> tatsächliche Löschfrist vor Veröffentlichung ergänzen</li></ul>
-          <h3>12. Löschung deines Kontos</h3><p>Du kannst die Löschung deines Kontos und der zugehörigen Daten jederzeit per E-Mail an <a href="mailto:mail@unbloq.de">mail@unbloq.de</a> beantragen. Wir bearbeiten den Löschantrag innerhalb von 30 Tagen und löschen die Daten, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Weitere Informationen findest du unter <a href="#konto-loeschen">Konto löschen</a>.</p>
-          <h3>13. Deine Rechte</h3><p>Du hast nach Maßgabe der gesetzlichen Voraussetzungen das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) sowie Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO).</p><p>Wende dich dazu an <a href="mailto:mail@unbloq.de">mail@unbloq.de</a>.</p><p>Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, zum Beispiel bei der Landesbeauftragten für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.</p>
-          <h3>14. Mindestalter</h3><p>Die App richtet sich an Personen ab 18 Jahren.</p>
-          <h3>15. Änderungen</h3><p>Wir passen diese Datenschutzerklärung an, wenn sich die App oder die rechtlichen Anforderungen ändern. Es gilt die jeweils hier veröffentlichte Fassung.</p><a class="back" href="#start">↑ Zurück nach oben</a>
-        </section>
-        <section class="section" id="impressum"><div class="section-header"><span class="kicker">02 / Anbieterinformationen</span><h2>Impressum</h2><p class="muted small">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</p></div><div class="cols"><div><h3>Anbieter</h3><p><strong>pff UG (haftungsbeschränkt)</strong><br>Möns 9<br>26409 Wittmund<br>Deutschland</p></div><div><h3>Vertretungsberechtigt</h3><p>Geschäftsführer: Christian Pree</p><h3>Kontakt</h3><p><a href="mailto:mail@unbloq.de">mail@unbloq.de</a></p></div></div><h3>Registerangaben</h3><div class="notice"><strong>Vor Veröffentlichung zwingend ergänzen:</strong> Registergericht und Handelsregisternummer (HRB …). Gegebenenfalls auch vorhandene Umsatzsteuer-Identifikationsnummer und weitere für das Unternehmen erforderliche Angaben. Die Daten wurden nicht angegeben und deshalb nicht erfunden.</div><a class="back" href="#start">↑ Zurück nach oben</a></section>
-        <section class="section" id="konto-loeschen"><div class="section-header"><span class="kicker">03 / Deine Kontrolle</span><h2>UNBLOQ-Konto löschen</h2><p class="muted">Du kannst dein Benutzerkonto und die zugehörigen personenbezogenen Daten zur Löschung anmelden.</p></div><h3>So beantragst du die Löschung</h3><p>Sende eine E-Mail von der E-Mail-Adresse, die du für dein UNBLOQ-Konto verwendest, an <a href="mailto:mail@unbloq.de">mail@unbloq.de</a>. Verwende als Betreff „UNBLOQ – Kontolöschung“. So können wir deinen Antrag deinem Konto zuordnen. Falls erforderlich, prüfen wir deine Berechtigung, bevor wir das Konto löschen.</p><a class="button" href="mailto:mail@unbloq.de?subject=UNBLOQ%20%E2%80%93%20Kontol%C3%B6schung&amp;body=Hallo%2C%0A%0Aich%20beantrage%20die%20L%C3%B6schung%20meines%20UNBLOQ-Benutzerkontos%20und%20der%20zugeh%C3%B6rigen%20personenbezogenen%20Daten.%0A%0AViele%20Gr%C3%BC%C3%9Fe">✉ Löschung per E-Mail beantragen</a><h3>Welche Daten werden gelöscht?</h3><p>Wir löschen insbesondere deine Konto- und nicht mehr benötigten Buchungsdaten, soweit keine gesetzlichen Aufbewahrungspflichten oder anderen rechtlichen Gründe einer Löschung entgegenstehen. Abrechnungsrelevante Unterlagen können nach den gesetzlichen Vorgaben für die jeweilige Aufbewahrungsfrist gespeichert bleiben.</p><h3>Wie lange dauert es?</h3><p>Wir bearbeiten deinen Löschantrag innerhalb von 30 Tagen. Falls Daten aufgrund gesetzlicher Pflichten länger gespeichert werden müssen, informieren wir dich entsprechend.</p><div class="fact"><p><strong>Gut zu wissen:</strong> Für eine Löschanfrage benötigst du keinen Zugang zu dieser Website und musst dich hier nicht anmelden.</p></div><div class="notice"><strong>Zusätzlich für Google Play erforderlich:</strong> Wenn UNBLOQ Konten innerhalb der App anlegen lässt, muss auch innerhalb der App ein gut auffindbarer Weg zur Kontolöschung vorhanden sein. Diese Webseite allein ersetzt das nicht.</div><a class="back" href="#start">↑ Zurück nach oben</a></section>
-      </div>
-    </div>
-  </main>
-  <footer class="shell"><span>© 2026 pff UG (haftungsbeschränkt) · UNBLOQ</span><span><a href="#datenschutz">Datenschutz</a> · <a href="#impressum">Impressum</a> · <a href="#konto-loeschen">Kontolöschung</a></span></footer>
+<a class="skip-link" href="#hauptinhalt">Direkt zum Inhalt springen</a>
+<header class="site-header">
+<div class="shell header-inner">
+<a aria-label="Zur Startseite von UNBLOQ springen" class="brand" href="#start">
+<img alt="" aria-hidden="true" class="brand-logo" src="data:image/webp;base64,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"/>
+<span class="brand-copy">
+<span class="brand-title">UNBLOQ</span>
+<span class="brand-sub">Rechtliches · Datenschutz · Kontolöschung</span>
+</span>
+</a>
+<nav aria-label="Hauptnavigation" class="header-nav">
+<a href="#datenschutz">Datenschutz</a>
+<a href="#impressum">Impressum</a>
+<a href="#konto-loeschen">Konto löschen</a>
+</nav>
+</div>
+</header>
+<main class="shell" id="hauptinhalt">
+<section aria-labelledby="hero-title" class="hero" id="start">
+<div class="hero-inner">
+<span class="eyebrow">UNBLOQ · Rechtliches &amp; Transparenz</span>
+<h1 id="hero-title">Deine Fahrt.<br/><span class="accent">Deine Freiheit.</span></h1>
+<p class="lead">Fahrrad buchen, Schloss öffnen, losfahren. UNBLOQ macht Mobilität einfach. Hier findest du alle Informationen zu Datenschutz, Anbieter und Kontolöschung — übersichtlich an einem Ort.</p>
+<div class="hero-actions">
+<a class="button" href="#datenschutz">Datenschutzerklärung lesen</a>
+<a class="button-secondary" href="#konto-loeschen">Konto löschen</a>
+</div>
+<div class="hero-meta"><span>UNBLOQ</span><span>pff UG (haftungsbeschränkt)</span><span>Stand: 16. November 2026</span></div>
+</div>
+</section>
+<section aria-label="Schnellzugriff" class="tiles">
+<a class="tile" href="#datenschutz">
+<span aria-hidden="true" class="symbol">§</span>
+<h2>Datenschutz</h2>
+<p>Alle Informationen zur Verarbeitung personenbezogener Daten in der UNBLOQ-App und auf dieser Website.</p>
+<span class="arrow">Zur Datenschutzerklärung →</span>
+</a>
+<a class="tile" href="#impressum">
+<span aria-hidden="true" class="symbol">▤</span>
+<h2>Impressum</h2>
+<p>Angaben zum Anbieter, zur Vertretung und zum Handelsregister der pff UG (haftungsbeschränkt).</p>
+<span class="arrow">Zum Impressum →</span>
+</a>
+<a class="tile" href="#konto-loeschen">
+<span aria-hidden="true" class="symbol">✉</span>
+<h2>Konto löschen</h2>
+<p>So kannst du die Löschung deines UNBLOQ-Benutzerkontos und der zugehörigen Daten beantragen.</p>
+<span class="arrow">Zur Kontolöschung →</span>
+</a>
+</section>
+<div class="content-grid">
+<nav aria-label="Inhaltsübersicht" class="toc">
+<strong>Inhaltsübersicht</strong>
+<a href="#datenschutz">Datenschutzerklärung</a>
+<a href="#registrierung">Registrierung &amp; Anmeldung</a>
+<a href="#buchungen">Buchungen</a>
+<a href="#standort">Fahrradpositionen</a>
+<a href="#bluetooth">Bluetooth</a>
+<a href="#webseiten-hosting">Website-Hosting</a>
+<a href="#speicherung">Speicherdauer</a>
+<a href="#impressum">Impressum</a>
+<a href="#konto-loeschen">Kontolöschung</a>
+</nav>
+<div class="stack">
+<section aria-labelledby="datenschutz-title" class="section" id="datenschutz">
+<div class="section-header">
+<span class="kicker">01 / Datenschutz</span>
+<h2 id="datenschutz-title">Datenschutzerklärung für die App „UNBLOQ“</h2>
+<p class="muted small">Stand: 16.11.2026</p>
+</div>
+<h3>1. Verantwortlicher</h3>
+<p><strong>pff UG (haftungsbeschränkt)</strong><br/>Möns 9<br/>26409 Wittmund<br/>Deutschland<br/>E-Mail: <a href="mailto:mail@unbloq.de">mail@unbloq.de</a><br/>Vertreten durch: Christian Pree</p>
+<h3>2. Überblick</h3>
+<p>Mit der App UNBLOQ kannst du Fahrräder an teilnehmenden Standorten buchen und die Fahrradschlösser per Smartphone öffnen und schließen. Wir verarbeiten personenbezogene Daten nur, soweit das für die Bereitstellung der App, die Durchführung deiner Buchungen und den sicheren Betrieb erforderlich ist. Wir setzen keine Werbe-, Tracking- oder Analyse-Dienste ein.</p>
+<h3 id="registrierung">3. Registrierung und Anmeldung</h3>
+<p>Für die Nutzung ist ein Benutzerkonto erforderlich. Bei der Registrierung verarbeiten wir:</p>
+<ul>
+<li>Benutzername</li>
+<li>Vorname und Nachname</li>
+<li>E-Mail-Adresse</li>
+<li>Passwort (wird ausschließlich verschlüsselt übertragen und nur als kryptografischer Hash gespeichert)</li>
+</ul>
+<p>Für die Anmeldung erhält die App zeitlich begrenzte Zugangstoken. Diese werden ausschließlich im geschützten Speicher deines Geräts abgelegt (iOS-Schlüsselbund beziehungsweise Android Keystore) und beim Abmelden gelöscht.</p>
+<p>Die Benutzerverwaltung erfolgt mit der Software Keycloak.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertrag beziehungsweise vorvertragliche Maßnahmen).</p>
+<h3 id="buchungen">4. Buchungen</h3>
+<p>Wenn du ein Fahrrad buchst, verarbeiten wir:</p>
+<ul>
+<li>das gebuchte Fahrrad und den Standort</li>
+<li>Beginn und Ende der Buchung</li>
+<li>Preis und Status der Buchung</li>
+<li>die Zuordnung der Buchung zu deinem Benutzerkonto</li>
+</ul>
+<p>Diese Daten benötigen wir, um die Buchung durchzuführen, abzurechnen und bei Rückfragen oder Schäden nachvollziehen zu können.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO; für Abrechnungsdaten zusätzlich Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit handels- und steuerrechtlichen Aufbewahrungspflichten.</p>
+<h3 id="standort">5. Position der Fahrräder</h3>
+<p>Die Fahrradschlösser übermitteln die letzte bekannte Position des Fahrrads an unsere Server. Während einer laufenden Buchung kann diese Position deiner Person zugeordnet werden.</p>
+<p>Wir nutzen die Position, um Fahrräder zu finden, den Bestand zu verwalten und Diebstahl oder Missbrauch zu verhindern. Wir erstellen keine Bewegungsprofile zu Werbe- oder Analysezwecken.</p>
+<p>Die App selbst greift nicht auf den GPS-Standort deines Smartphones zu. Auf Android-Geräten bis Version 11 verlangt das Betriebssystem für die Suche nach Bluetooth-Geräten technisch die Standortberechtigung. Diese nutzen wir ausschließlich, um das Fahrradschloss zu finden. Standortdaten deines Geräts werden dabei nicht erhoben oder übertragen.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am Schutz unserer Fahrräder).</p>
+<h3 id="bluetooth">6. Bluetooth</h3>
+<p>Die App verbindet sich per Bluetooth Low Energy mit dem Schloss des gebuchten Fahrrads. Dafür erhält die App von unserem Server zeitlich begrenzte digitale Zugangsdaten für das jeweilige Schloss. Daten anderer Bluetooth-Geräte in der Umgebung werden nicht gespeichert oder an uns übertragen.</p>
+<p>Alternativ kann das Schloss über eine Mobilfunkverbindung des Schlosses gesteuert werden. Dabei werden Befehle, zum Beispiel Öffnen und Schließen, sowie der Status des Schlosses über unsere Server übermittelt.</p>
+<h3>7. Kamera (QR-Code-Scan)</h3>
+<p>Du kannst Fahrräder per QR-Code auswählen. Die Kamera wird nur während des Scans und nur nach deiner Freigabe verwendet. Die Erkennung erfolgt auf deinem Gerät; auf Android wird dafür die Bibliothek Google ML Kit eingesetzt, die lokal arbeitet. Kamerabilder werden weder gespeichert noch an uns übertragen. Im Zusammenhang mit dem Betrieb der verwendeten Software können technische Diagnose- und Nutzungsdaten durch Google verarbeitet werden.</p>
+<h3 id="webseiten-hosting">8a. Besuch dieser Informationswebsite (GitHub Pages)</h3>
+<p>Diese Informationswebsite wird über GitHub Pages, einen Dienst von GitHub, Inc., USA, bereitgestellt. Beim Aufruf der Website verarbeitet GitHub technisch erforderliche Verbindungsdaten. Nach Angaben von GitHub werden insbesondere IP-Adressen von Besucherinnen und Besuchern aus Sicherheitsgründen protokolliert und gespeichert. Wir binden auf dieser Website keine externen Schriftarten, Analysewerkzeuge oder Werbetracker ein und verwenden selbst keine Cookies.</p>
+<p>Die Einstellung für Hell-/Dunkelmodus und Kontrast wird ausschließlich lokal in deinem Browser gespeichert (Web Storage), damit die Auswahl beim nächsten Besuch erhalten bleibt. Diese Einstellung wird nicht an uns übermittelt. Wenn die Speicherung deaktiviert ist, funktionieren die Einstellungen für die aktuelle Sitzung weiterhin.</p>
+<p>Die Bereitstellung und Absicherung der Website dient unserem berechtigten Interesse an einer sicheren und öffentlich zugänglichen Information über UNBLOQ (Art. 6 Abs. 1 lit. f DSGVO). Soweit Daten in Drittländer übermittelt werden, müssen die hierfür geltenden datenschutzrechtlichen Voraussetzungen eingehalten werden. Einzelheiten zur Datenverarbeitung durch GitHub sind in der Datenschutzerklärung von GitHub beschrieben: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutzerklärung</a>.</p>
+<h3>8. Server und technische Daten</h3>
+<p>Beim Aufruf unserer Server werden technisch bedingt Daten verarbeitet, zum Beispiel IP-Adresse, Zeitpunkt der Anfrage und die angefragte Funktion. Diese Daten dienen der Sicherheit und Stabilität des Dienstes.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO.</p>
+<h3>9. Empfänger und Auftragsverarbeiter</h3>
+<p><strong>Hosting:</strong> Railway Corporation, USA. Die technische Infrastruktur wird für die Bereitstellung unserer Server eingesetzt.</p>
+<p><strong>Standortbetreiber:</strong> Der Betreiber des jeweiligen Verleihstandorts erhält die für die Abwicklung deiner Buchung erforderlichen Daten.</p>
+<p>Eine Weitergabe an weitere Empfänger erfolgt nur, soweit dies zur Durchführung des Dienstes erforderlich ist oder eine gesetzliche Verpflichtung besteht.</p>
+<h3>10. Zahlungen</h3>
+<p>In der aktuellen Demo-Version werden keine Zahlungsdaten verarbeitet.</p>
+<h3 id="speicherung">11. Speicherdauer</h3>
+<ul>
+<li><strong>Kontodaten:</strong> bis zur Löschung deines Kontos, soweit keine Aufbewahrungspflicht entgegensteht</li>
+<li><strong>Buchungsdaten:</strong> bis zur Löschung deines Kontos; abrechnungsrelevante Daten bis zum Ablauf gesetzlicher Aufbewahrungsfristen (je nach Unterlagenart gegebenenfalls bis zu 10 Jahre)</li>
+<li><strong>Position der Fahrräder:</strong> Es wird jeweils die letzte bekannte Position gespeichert und aktualisiert, wenn eine neue Position eingeht.</li>
+<li><strong>Server-Protokolle:</strong> technische Protokolldaten nur so lange, wie dies für die Sicherheit und den stabilen Betrieb unserer Systeme erforderlich ist</li>
+</ul>
+<h3>12. Löschung deines Kontos</h3>
+<p>Du kannst die Löschung deines Kontos und der zugehörigen Daten jederzeit per E-Mail an <a href="mailto:mail@unbloq.de">mail@unbloq.de</a> beantragen. Wir bearbeiten den Löschantrag innerhalb von 30 Tagen und löschen die Daten, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Weitere Informationen findest du unter <a href="#konto-loeschen">Konto löschen</a>.</p>
+<h3>13. Deine Rechte</h3>
+<p>Du hast das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) sowie Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO).</p>
+<p>Wende dich dazu an <a href="mailto:mail@unbloq.de">mail@unbloq.de</a>.</p>
+<p>Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, zum Beispiel bei der Landesbeauftragten für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.</p>
+<h3>14. Mindestalter</h3>
+<p>Die App richtet sich an Personen ab 18 Jahren.</p>
+<h3>15. Änderungen</h3>
+<p>Wir passen diese Datenschutzerklärung an, wenn sich die App oder die rechtlichen Anforderungen ändern. Es gilt die jeweils hier veröffentlichte Fassung.</p>
+<a class="back" href="#start">↑ Zurück nach oben</a>
+</section>
+<section aria-labelledby="impressum-title" class="section" id="impressum">
+<div class="section-header">
+<span class="kicker">02 / Anbieterinformationen</span>
+<h2 id="impressum-title">Impressum</h2>
+<p class="muted small">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</p>
+</div>
+<div class="cols">
+<div>
+<h3>Anbieter</h3>
+<p><strong>pff UG (haftungsbeschränkt)</strong><br/>Möns 9<br/>26409 Wittmund<br/>Deutschland</p>
+</div>
+<div>
+<h3>Vertretungsberechtigt</h3>
+<p>Geschäftsführer: Christian Pree</p>
+<h3>Kontakt</h3>
+<p><a href="mailto:mail@unbloq.de">mail@unbloq.de</a></p>
+</div>
+<div>
+<h3>Handelsregister</h3>
+<p>Amtsgericht Aurich<br/>HRB 208338</p>
+</div>
+</div>
+<a class="back" href="#start">↑ Zurück nach oben</a>
+</section>
+<section aria-labelledby="konto-title" class="section" id="konto-loeschen">
+<div class="section-header">
+<span class="kicker">03 / Deine Kontrolle</span>
+<h2 id="konto-title">UNBLOQ-Konto löschen</h2>
+<p class="muted">Du kannst dein Benutzerkonto und die zugehörigen personenbezogenen Daten zur Löschung anmelden.</p>
+</div>
+<h3>So beantragst du die Löschung</h3>
+<p>Sende eine E-Mail von der E-Mail-Adresse, die du für dein UNBLOQ-Konto verwendest, an <a href="mailto:mail@unbloq.de">mail@unbloq.de</a>. Verwende als Betreff „UNBLOQ – Kontolöschung“. So können wir deinen Antrag deinem Konto zuordnen. Falls erforderlich, prüfen wir deine Berechtigung, bevor wir das Konto löschen.</p>
+<a class="button" href="mailto:mail@unbloq.de?subject=UNBLOQ%20%E2%80%93%20Kontol%C3%B6schung&amp;body=Hallo%2C%0A%0Aich%20beantrage%20die%20L%C3%B6schung%20meines%20UNBLOQ-Benutzerkontos%20und%20der%20zugeh%C3%B6rigen%20personenbezogenen%20Daten.%0A%0AViele%20Gr%C3%BC%C3%9Fe">✉ Löschung per E-Mail beantragen</a>
+<h3>Welche Daten werden gelöscht?</h3>
+<p>Wir löschen insbesondere deine Konto- und nicht mehr benötigten Buchungsdaten, soweit keine gesetzlichen Aufbewahrungspflichten oder andere rechtliche Gründe einer Löschung entgegenstehen. Abrechnungsrelevante Unterlagen können nach den gesetzlichen Vorgaben für die jeweilige Aufbewahrungsfrist gespeichert bleiben.</p>
+<h3>Wie lange dauert es?</h3>
+<p>Wir bearbeiten deinen Löschantrag innerhalb von 30 Tagen. Falls Daten aufgrund gesetzlicher Pflichten länger gespeichert werden müssen, informieren wir dich entsprechend.</p>
+<div class="fact">
+<p><strong>Gut zu wissen:</strong> Für eine Löschanfrage benötigst du keinen Zugang zu dieser Website und musst dich hier nicht anmelden.</p>
+</div>
+<a class="back" href="#start">↑ Zurück nach oben</a>
+</section>
+</div>
+</div>
+</main>
+<footer class="shell site-footer">
+<span>© 2026 pff UG (haftungsbeschränkt) · UNBLOQ</span>
+<span><a href="#datenschutz">Datenschutz</a> · <a href="#impressum">Impressum</a> · <a href="#konto-loeschen">Kontolöschung</a></span>
+</footer>
 </body>
 </html>
